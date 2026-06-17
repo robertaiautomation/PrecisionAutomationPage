@@ -1,6 +1,5 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { supabase } from '../lib/supabase';
 import { Check } from 'lucide-react';
 
 const AuditOffer = () => {
@@ -27,18 +26,28 @@ const AuditOffer = () => {
     setError('');
 
     try {
-      const { error: supabaseError } = await supabase
-        .from('audit_requests')
-        .insert([
-          {
-            name: formData.name,
-            email: formData.email,
-            company: formData.company,
-            website: formData.website,
-          },
-        ]);
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          access_key: import.meta.env.VITE_WEB3FORMS_KEY || '05d297ad-d4c6-46f9-ac8e-a07d338fdc89',
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          website: formData.website,
+          subject: 'New AI & SEO Audit Request - Precision Automation',
+          from_name: 'Precision Automation Website'
+        })
+      });
 
-      if (supabaseError) throw supabaseError;
+      const data = await response.json();
+
+      if (!response.ok || !data.success) {
+        throw new Error(data.message || 'Something went wrong while submitting the audit request.');
+      }
 
       setSubmitted(true);
       setFormData({ name: '', email: '', company: '', website: '' });
