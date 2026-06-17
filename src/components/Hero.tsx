@@ -44,7 +44,7 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight leading-tight">
                 <span className="block">Rank in TOP 3.</span>
                 <span className="block bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
                   Convert with AI.
