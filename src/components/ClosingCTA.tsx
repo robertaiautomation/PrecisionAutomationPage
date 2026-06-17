@@ -36,7 +36,7 @@ const ClosingCTA = () => {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: import.meta.env.VITE_WEB3FORMS_KEY || '05d297ad-d4c6-46f9-ac8e-a07d338fdc89',
+          access_key: import.meta.env.VITE_WEB3FORMS_KEY || '0953e6a9-eeaa-40ef-aa53-9f5c32a0ea62',
           name: formData.name,
           email: formData.email,
           company: formData.company,
