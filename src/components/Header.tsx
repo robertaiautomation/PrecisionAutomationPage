@@ -27,7 +27,7 @@ const Header = () => {
           <img
             src="https://qhotphj7iu.ufs.sh/f/zPG9pdgOD5jUTK1zEraLzDFQGE0KYxnufPm1MOp3NJHcZsCX"
             alt="Precision Automation"
-            className="h-12 w-auto"
+            className="h-16 w-auto"
           />
         </div>
 

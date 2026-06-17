@@ -81,15 +81,15 @@ const ClosingCTA = () => {
           className="text-center"
         >
           <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
-            Automate.{' '}
+            Rank.{' '}
             <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-              Accelerate.
+              Automate.
             </span>{' '}
             Dominate.
           </h2>
 
           <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto">
-            Let's build your custom AI automation system today.
+            Claim your Google TOP 3 spot and let custom AI close your traffic on autopilot.
           </p>
 
           <motion.div

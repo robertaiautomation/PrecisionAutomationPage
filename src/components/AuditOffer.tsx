@@ -68,13 +68,13 @@ const AuditOffer = () => {
 
             <div className="relative z-10 text-center mb-8">
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                Not sure what to automate{' '}
+                Want to claim your{' '}
                 <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                  first?
+                  TOP 3 spot?
                 </span>
               </h2>
               <p className="text-gray-400 text-lg">
-                Get a free AI Automation Audit — we'll show you where AI can save you time and money.
+                Get a free AI & SEO Growth Audit — see exactly which keywords to target and how AI will convert them.
               </p>
             </div>
 

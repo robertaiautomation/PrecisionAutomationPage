@@ -1,12 +1,13 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { AlertCircle, Clock, MessageSquare, Users } from 'lucide-react';
+import { AlertCircle, Clock, MessageSquare, Users, Search } from 'lucide-react';
 
 const painPoints = [
   { icon: MessageSquare, text: 'Leads that never get followed up' },
   { icon: Clock, text: 'Prospects waiting hours for a reply' },
   { icon: Users, text: 'Reps spending more time typing than selling' },
   { icon: AlertCircle, text: 'Support tickets piling up unanswered' },
+  { icon: Search, text: 'Invisible on Google while competitors claim the TOP 3 traffic' },
 ];
 
 const Bottleneck = () => {
@@ -24,7 +25,7 @@ const Bottleneck = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
-              Every missed message is a{' '}
+              Every missed search is a{' '}
               <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
                 missed opportunity.
               </span>

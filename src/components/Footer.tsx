@@ -25,7 +25,7 @@ const Footer = () => {
             <img
               src="https://qhotphj7iu.ufs.sh/f/zPG9pdgOD5jUTK1zEraLzDFQGE0KYxnufPm1MOp3NJHcZsCX"
               alt="Precision Automation"
-              className="h-10 w-auto mb-4"
+              className="h-14 w-auto mb-4"
             />
             <p className="text-gray-400 text-sm leading-relaxed">
               AI systems engineered for speed, accuracy, and growth.

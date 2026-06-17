@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { MessageSquare, Headphones, Database, Calendar, Phone, Send } from 'lucide-react';
+import { MessageSquare, Headphones, Database, Calendar, Phone, Send, Search } from 'lucide-react';
 
 const services = [
   {
@@ -32,6 +32,11 @@ const services = [
     icon: Send,
     title: 'Automated Outreach System',
     description: 'Multichannel automation that nurtures leads across platforms.',
+  },
+  {
+    icon: Search,
+    title: 'Google TOP 3 SEO Engine',
+    description: 'Dominate Google search rankings for high-intent keywords to pull in consistent organic traffic.',
   },
 ];
 

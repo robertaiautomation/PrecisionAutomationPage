@@ -1,25 +1,25 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { MessageCircle, Cog, BarChart3 } from 'lucide-react';
+import { Search, TrendingUp, BarChart3 } from 'lucide-react';
 
 const steps = [
   {
-    icon: MessageCircle,
+    icon: Search,
     number: '01',
-    title: 'Discovery Call',
-    description: 'We learn your goals and map out your automation system.',
+    title: 'SEO & AI Strategy',
+    description: 'We analyze high-intent keywords and design your automated conversion roadmap.',
   },
   {
-    icon: Cog,
+    icon: TrendingUp,
     number: '02',
-    title: 'Custom Build',
-    description: 'Our team designs and integrates AI agents into your workflow.',
+    title: 'Build & Rank',
+    description: 'Our team optimizes your site for Google TOP 3 and deploys custom AI agents.',
   },
   {
     icon: BarChart3,
     number: '03',
-    title: 'Launch & Optimize',
-    description: 'You get real-time reporting and continuous performance tuning.',
+    title: 'Drive & Convert',
+    description: 'Watch organic traffic scale while AI instantly captures and closes every lead.',
   },
 ];
 

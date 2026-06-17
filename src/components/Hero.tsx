@@ -45,9 +45,9 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight leading-tight">
-                <span className="block">AI Systems That</span>
+                <span className="block">Rank in TOP 3.</span>
                 <span className="block bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                  Sell, Support, and Schedule
+                  Convert with AI.
                 </span>
                 <span className="block">— Automatically.</span>
               </h1>
@@ -58,7 +58,7 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-lg md:text-xl text-gray-300 mb-8 max-w-lg leading-relaxed"
               >
-                We build intelligent automation that converts leads, handles support, and grows your business while you sleep.
+                Drive high-intent search traffic by ranking in the Google TOP 3, and let our custom AI systems instantly capture, qualify, and close every lead.
               </motion.p>
 
               <motion.div
